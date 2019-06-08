@@ -1,0 +1,24 @@
+{
+  "name": "http-server",
+  "version": "1.0.0",
+  "description": "basic http server",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "babel": "babel --presets es2015 js/main.js -o build/main.bundle.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cmuir363/http-server.git"
+  },
+  "author": "Calum Muir",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/cmuir363/http-server/issues"
+  },
+  "homepage": "https://github.com/cmuir363/http-server#readme",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.3"
+  }
+}
