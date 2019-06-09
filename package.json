@@ -2,8 +2,9 @@
   "name": "http-server",
   "version": "1.0.0",
   "description": "basic http server",
-  "main": "index.js",
+  "main": "tcp.js",
   "scripts": {
+    "start": "node tcp.js",
     "test": "echo \"Error: no test specified\" && exit 1",
     "babel": "babel --presets es2015 js/main.js -o build/main.bundle.js"
   },
