@@ -4,7 +4,7 @@
   "description": "basic http server",
   "main": "tcp.js",
   "scripts": {
-    "start": "node tcp.js",
+    "start": "node basicServer.js",
     "test": "echo \"Error: no test specified\" && exit 1",
     "babel": "babel --presets es2015 js/main.js -o build/main.bundle.js"
   },
